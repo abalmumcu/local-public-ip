@@ -19,7 +19,7 @@ class Window(Frame):
 
         def Showerror(event):
             messagebox.showinfo("Info", "Defined...         \n\nPlease wait       ")
-            messagebox.showerror("Error", "You have been HACKED!!")
+            messagebox.showerror("Error", "Error")
             system_respond1 = messagebox.askretrycancel("Emergency","System not responding...\n\nPress 'retry' button to fix this issue")
             while system_respond1 != False:
                system_respond = messagebox.askretrycancel("Emergency","System not responding...\n\nRemote system connecting...")
